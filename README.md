@@ -4,8 +4,8 @@
   <h2>ER4 DoS</h2>
   <p>ER4 birden fazla DoS saldırı çeşidini tek scriptte gerçekleştirmeyi amaçlayan bir test aracıdır.</p>
   <h2>Kullanım</h2>
-    <p>Örnek kullanım[Udp flood] : python main.py -t 192.168.1.1 -p 80 -d 200</p>
-    <p>Örnek kullanım[Slowloris] : python main.py -u hedefsite.com -p 80 -s 250</p>
+    <p>Örnek kullanım[Udp flood] : python main.py -udp -t 192.168.1.1 -p 80 -d 200</p>
+    <p>Örnek kullanım[Slowloris] : python main.py -sl -u hedefsite.com -p 80 -s 250</p>
     <table>
   <tr>
     <th>Parametre</th>
